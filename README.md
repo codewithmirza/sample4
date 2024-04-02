@@ -49,7 +49,7 @@
 ```
 Directory: D:\llvm-project\clang\tools\libclang
 
-Mode                 LastWriteTime         Length Name
+Mode                          File Name
 ----                 -------------         ------ ----
 -a----                     ARCMigrate.cpp
 -a----                     BuildSystem.cpp
@@ -66,12 +66,13 @@ Mode                 LastWriteTime         Length Name
 -a----                    libclang.map
 -a----          linker-script-to-export-list.py
 -a----                     Rewrite.cpp
+----                 -------------         ------ ----
 ```
 ## Files in `build.emscripten/lib` folder after build/configuration process
 ```
 Directory: D:\llvm-project\clang\tools\libclang
 
-Mode                 LastWriteTime         Length Name
+Mode                          File Name
 ----                 -------------         ------ ----
 -a----                     ARCMigrate.cpp.o
 -a----                     BuildSystem.cpp.o
@@ -88,4 +89,5 @@ Mode                 LastWriteTime         Length Name
 -a----                    libclang.map.o
 -a----          linker-script-to-export-list.py.o
 -a----                     Rewrite.cpp.o
+----                 -------------         ------ ----
 ```
