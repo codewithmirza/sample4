@@ -46,6 +46,7 @@
 - Experiment with different build configurations and options to optimize performance and compatibility for your specific use case.
 
 ## Files in the `libclang` Folder Before Process
+```
 Directory: D:\llvm-project\clang\tools\libclang
 
 Mode                 LastWriteTime         Length Name
@@ -65,7 +66,9 @@ Mode                 LastWriteTime         Length Name
 -a----                    libclang.map
 -a----          linker-script-to-export-list.py
 -a----                     Rewrite.cpp
-## Files in `build.emscripten/lib` after the extraction of `libclang.a`
+```
+## Files in `build.emscripten/lib` folder after build/configuration process
+```
 Directory: D:\llvm-project\clang\tools\libclang
 
 Mode                 LastWriteTime         Length Name
@@ -85,4 +88,4 @@ Mode                 LastWriteTime         Length Name
 -a----                    libclang.map.o
 -a----          linker-script-to-export-list.py.o
 -a----                     Rewrite.cpp.o
-
+```
