@@ -1,7 +1,8 @@
-# Compiling libclang.a to libclang.wasm using Emscripten
+# Compiling libclang from the llvm repository to WASM.
 
 ## Prerequisites
 - Install Emscripten: Ensure you have Emscripten installed and set up on your system. You can download and install it from the official Emscripten website.
+- Clone the llvm-project from LLVM Repository.
 
 ## Steps
 
